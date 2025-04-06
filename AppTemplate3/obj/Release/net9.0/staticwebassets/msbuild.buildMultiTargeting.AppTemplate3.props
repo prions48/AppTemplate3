@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/AppTemplate3.props" />
+</Project>

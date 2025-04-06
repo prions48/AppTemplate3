@@ -1,9 +1,3 @@
-/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.csproj.AssemblyReference.cache
-/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.GeneratedMSBuildEditorConfig.editorconfig
-/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.AssemblyInfoInputs.cache
-/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.AssemblyInfo.cs
-/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.csproj.CoreCompileInputs.cache
-/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.MvcApplicationPartsAssemblyInfo.cache
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/appsettings.Development.json
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/appsettings.json
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/AppTemplate3.staticwebassets.runtime.json
@@ -17,6 +11,8 @@
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Communication.Email.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Core.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Identity.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Storage.Blobs.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Storage.Common.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Humanizer.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -56,6 +52,7 @@
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.Drawing.Common.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.IO.Hashing.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.Memory.Data.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.Runtime.Caching.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
@@ -138,6 +135,13 @@
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.csproj.AssemblyReference.cache
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.AssemblyInfoInputs.cache
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.AssemblyInfo.cs
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.csproj.CoreCompileInputs.cache
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.MvcApplicationPartsAssemblyInfo.cache
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.sourcelink.json
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/scopedcss/bundle/AppTemplate3.styles.css
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/scopedcss/projectbundle/AppTemplate3.bundle.scp.css
@@ -205,7 +209,3 @@
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.pdb
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.genruntimeconfig.cache
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/ref/AppTemplate3.dll
-/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Storage.Blobs.dll
-/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Storage.Common.dll
-/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.IO.Hashing.dll
-/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.sourcelink.json

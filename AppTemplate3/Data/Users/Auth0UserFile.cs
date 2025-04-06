@@ -10,6 +10,7 @@ namespace AppTemplate3.Data.Users
         public string DisplayName { get; set; }
         public string BlobName { get; set; }
         public DateTime CreatedTimeStamp { get; set; }
+        public bool ImageFile { get; set; }
         public Auth0UserFile()
         {
             ID = Guid.NewGuid();

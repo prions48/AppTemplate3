@@ -16,6 +16,7 @@
                 <thead>
                     <tr>
                         <th>File Name</th>
+                        <th>View</th>
                         <th>Download</th>
                     </tr>
                 </thead>
@@ -25,7 +26,21 @@
                         <tr>
                             <td>@file.DisplayName</td>
                             <td>
+                                @if (file.ImageFile)
+                                {
+                                    <MudIconButton Color="Color.Info" Icon="@Icons.Material.Filled.RemoveRedEye" OnClick="() => View(file)" />
+                                }
+                            </td>
+                            <td>
                                 <MudIconButton Color="Color.Info" Icon="@Icons.Material.Filled.Download" OnClick="() => Download(file)" />
+                            </td>
+                        </tr>
+                    }
+                    @if (!string.IsNullOrEmpty(ImageString))
+                    {
+                        <tr>
+                            <td colspan="3">
+                                <img src="data:image/png;base64, @ImageString" />
                             </td>
                         </tr>
                     }
@@ -46,6 +61,7 @@
 @code {
     [CascadingParameter] public Auth0User? User { get; set; }
     private List<Auth0UserFile> UserFiles { get; set; } = [];
+    private string? ImageString { get; set; } = null;
     private bool loaded = false;
     protected override void OnParametersSet()
     {
@@ -82,5 +98,16 @@
         var results = await fileService.DownloadFromBlob(file);
         if (results != "Success")
             Snackbar.Add(results,Severity.Error);
+    }
+    private async Task View(Auth0UserFile file)
+    {
+        if (file.ImageFile)
+        {
+            var result = await fileService.DownloadFile(file.UserID.ToString(),file.BlobName);
+            if (result.Item2 == "Success")
+            {
+                ImageString = Convert.ToBase64String(result.Item1!.ToArray());
+            }
+        }
     }
 }

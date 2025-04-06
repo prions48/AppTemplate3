@@ -36,7 +36,8 @@ namespace AppTemplate3.Data.Files
                 Auth0UserFile file = new Auth0UserFile() {
                     UserID = userid,
                     BlobName = blobname,
-                    DisplayName = filename
+                    DisplayName = filename,
+                    ImageFile = filename.EndsWith(".png")
                 };
                 _userService.CreateFileRecord(file);
                 return (file,"Success");
