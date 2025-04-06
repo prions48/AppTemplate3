@@ -18,6 +18,15 @@ namespace AppTemplate3.Data.Users
             _context.SaveChanges();
             return newuser;
         }
+        public void CreateFileRecord(Auth0UserFile file)
+        {
+            _context.Auth0UserFiles.Add(file);
+            _context.SaveChanges();
+        }
+        public List<Auth0UserFile> GetFilesByUser(Guid userid)
+        {
+            return _context.Auth0UserFiles.FromSqlRaw($"SELECT * FROM [Auth0UserFiles] WHERE [UserID] = '{userid}'").ToList();
+        }
         public void RecordLogin(Guid userid)
         {
             AuditLogin login = new AuditLogin()

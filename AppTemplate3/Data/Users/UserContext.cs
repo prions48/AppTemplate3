@@ -9,6 +9,7 @@ namespace AppTemplate3.Data.Users
 
         }
         public DbSet<Auth0User> Auth0Users { get; set; }
+        public DbSet<Auth0UserFile> Auth0UserFiles { get; set; }
         public DbSet<AuditLogin> AuditLogins { get; set; }
     }
 }

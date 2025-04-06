@@ -205,3 +205,7 @@
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.pdb
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.genruntimeconfig.cache
 /Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/ref/AppTemplate3.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Storage.Blobs.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/Azure.Storage.Common.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/bin/Debug/net9.0/System.IO.Hashing.dll
+/Users/prions/Coding/AppTemplate3/AppTemplate3/obj/Debug/net9.0/AppTemplate3.sourcelink.json

@@ -19,6 +19,13 @@ namespace AppTemplate3.Data
                 return "Template3";
             }
         }
+        public static string Container
+        {
+            get
+            {
+                return "appfilestorage";
+            }
+        }
         public static string OwnerEmail
         {
             get

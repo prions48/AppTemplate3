@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using MudBlazor.Services;
 using AppTemplate3.Components;
 using AppTemplate3.Data.Email;
+using AppTemplate3.Data.Files;
 using AppTemplate3.Data.Users;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,8 +24,12 @@ builder.Services.AddMudServices();
 builder.Services.AddScoped<IEmailSettings,EmailSettings>();
 builder.Services.AddScoped<EmailService>();
 
+builder.Services.AddScoped<IFileSettings,FileSettings>();
+builder.Services.AddScoped<FileService>();
+
 builder.Services.AddDbContext<UserContext>(o => o.UseSqlServer(builder.Configuration["ConnectionStrings:SQL"]));
 builder.Services.AddScoped<UserService>();
+
 
 var app = builder.Build();
 
