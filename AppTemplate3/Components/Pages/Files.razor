@@ -108,6 +108,10 @@
             {
                 ImageString = Convert.ToBase64String(result.Item1!.ToArray());
             }
+            else
+            {
+                Snackbar.Add(result.Item2,Severity.Error);
+            }
         }
     }
 }
