@@ -1,10 +1,27 @@
 @page "/auth"
+@using AppTemplate3.Data.Users
 
 <AuthorizeView>
-    <Authorized>You are logged in!</Authorized>
+    <Authorized>
+        You are logged in!
+        @if (User != null)
+        {
+            <p>User: @User.UserName</p>
+            <p>Email: @User.EmailAddress</p>
+        }
+    </Authorized>
     <NotAuthorized>You are not logged in.</NotAuthorized>
 </AuthorizeView>
 
 @code {
-    
+    [CascadingParameter] public Auth0User? User { get; set; }
+    Guid userid = Guid.Empty;
+    protected override async Task OnParametersSetAsync()
+    {
+        if (User != null && userid != User.UserID)
+        {
+
+            userid = User.UserID;
+        }
+    }
 }
